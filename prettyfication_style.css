@@ -16,12 +16,12 @@
 }
 
 .ptfn-hidden {
-	margin-top: -80px;
+	margin-top: -80px !important;
 	opacity: 0;
 }
 
 .ptfn-show {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	opacity: 0.8;
 }
 
