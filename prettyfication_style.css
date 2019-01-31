@@ -1,0 +1,42 @@
+.prettyfication {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 50px;
+
+	height: 50px;
+	width: 300px;
+	
+	border-radius: 10px;
+
+	--webkit-transition: margin 1s, opacity 0.8s;
+	transition: margin 1s, opacity 0.8s;
+
+	padding: 15px;
+}
+
+.ptfn-hidden {
+	margin-top: -80px;
+	opacity: 0;
+}
+
+.ptfn-show {
+	margin-top: 40px;
+	opacity: 0.8;
+}
+
+.ptfn-alert {
+	background-color: darkorange;
+}
+
+.ptfn-notice {
+	background-color: lightseagreen;
+}
+
+.ptfn-success {
+	background-color: dodgerblue;
+}
+
+.ptfn-error {
+	background-color: crimson;
+}
